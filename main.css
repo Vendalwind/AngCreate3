@@ -11,7 +11,7 @@ body{
 
 a, a:visited {
     outline:none;
-    color: #67c192;
+    color: #6dc1a2;
 }
 
 a:hover{
@@ -29,7 +29,7 @@ section, footer, header, aside, nav{
 nav{
     display:inline-block;
     margin:60px auto 45px;
-    background-color: #5ab49b;
+    background-color: #6dc1a2;
     box-shadow:0 1px 1px #ccc;
     border-radius:2px;
 }
@@ -61,7 +61,7 @@ nav a:last-child{
 nav.Welcome .Welcome,
 nav.Search .Search,
 nav.Contact .Contact{
-    background-color: #4051e3;
+    background-color: #427ee3;
 }
 
 p{
@@ -92,7 +92,7 @@ body{
 
 a, a:visited {
     outline:none;
-    color: #bec127;
+    color: #427ee3;
 }
 
 a:hover{
@@ -108,7 +108,7 @@ section, footer, header, aside, nav{
 --------------------------*/
 
 .bar{
-    background-color:#5c9bb7;
+    background-color: #427ee3;
 
     background-image:-webkit-linear-gradient(top, #5c9bb7, #5392ad);
     background-image:-moz-linear-gradient(top, #5c9bb7, #5392ad);
