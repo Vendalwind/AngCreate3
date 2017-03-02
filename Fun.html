@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+<title>Some fun for you</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+
+
+
+
+
+<div ng-app="myApp" ng-controller="myCtrl">
+
+
+<img ng-mousemove="myFunc($event)" src="pic.jpg" height="360" width="930">
+
+<h1>Month: {{y}}</h1>
+
+<h1>Day: {{x}}</h1>
+
+</div>
+<script>
+var app = angular.module('myApp', []);
+app.controller('myCtrl', function($scope) {
+    $scope.myFunc = function(myE) {
+        $scope.x = Math.floor(myE.clientX/30);
+        $scope.y = Math.floor(myE.clientY/30);
+    }
+});
+
+
+
+</script> 
+
+
+<h2>Mouse over the picture to until the Month and Day values matches your birthday! That's your spirit animal!</h2>
+
+
+</body>
+</html>
